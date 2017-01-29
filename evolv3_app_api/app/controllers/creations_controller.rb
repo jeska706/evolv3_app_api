@@ -5,7 +5,7 @@ class CreationsController < ApplicationController
   def index
     @creations = Creation.all
 
-    render json: @creations
+    render json: @creations 
   end
 
   # GET /creations/1
